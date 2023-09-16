@@ -1,0 +1,26 @@
+::selection {
+    background: grey;
+    color: aqua;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    background-color: #121214;
+    color: #fff;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex; /*para se comportar como caixas, de forma flexivel*/
+    flex-direction: column; /*para uma coisa ficar em baixo da outra*/
+    align-items: center; /*horizontal*/
+    justify-content: center; /*vertical*/
+
+}
+
+body, button, input {
+    font-family: 'Roboto', sans-serif;
+}
